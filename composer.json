@@ -19,9 +19,9 @@
             "providers": [
                 "Redninjaturtle\\RedLaravelLocation\\Providers\\LocationServiceProvider"
             ],
-            "aliases": [
-                "Redninjaturtle\\RedLaravelLocation\\Facades\\LocationFacade"
-            ]
+            "aliases": {
+                "Location": "Redninjaturtle\\RedLaravelLocation\\Facades\\LocationFacade"
+            }
         }
     }
 }
