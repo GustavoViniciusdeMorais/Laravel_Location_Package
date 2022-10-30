@@ -13,5 +13,15 @@
             "name": "Gustavo Vinicius"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Redninjaturtle\\RedLaravelLocation\\Providers\\LocationServiceProvider"
+            ],
+            "aliases": [
+                "Redninjaturtle\\RedLaravelLocation\\Facades\\LocationFacade"
+            ]
+        }
+    }
 }
